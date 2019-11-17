@@ -1,0 +1,102 @@
+body{
+  /*  background-color: aquamarine; */
+   /* background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%); */
+   /* Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);*/
+   margin: 0px;
+}
+#div1{
+   background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
+    background-image: url("../res/html_1.jpg"); 
+    background-repeat: no-repeat;
+ /* background-attachment: fixed; */
+  background-position: center;
+    height: 600px; 
+   /* text-align: center; */
+    color: brown;
+    /*font-size: 40px; */
+   /* margin-top: 120px;*/
+}
+#div2{
+    /*background-image: Linear-gradient(127deg, black, black 70.71%);*/
+   /* height: 2000 px; */
+    background-image: url("../res/css-zero.jpg"); 
+    background-repeat: no-repeat;
+  /*background-attachment: fixed; */
+  background-position: center;
+  /*background-attachment: fixed;*/
+  color: rgb(42, 165, 93);
+  height: 600px; 
+  font-size: 40px;
+
+}
+#div3{
+    background-image: Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-image: url("../res/js_2.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(138, 35, 179);
+    height: 600px; 
+    font-size: 40px;
+}
+div a img {
+    float: left;
+    height: 60px;
+    margin-left: 10px;
+}
+#nav-bar{
+    float : right;
+   /* margin-bottom: 120px;*/
+    /*display: inline-block;*/
+    background-color: rgba(235, 51, 235, 0);
+    /*color: rgba(235, 51, 235, 0);
+    /*height: 100px;
+    /*background-image: url("../res/js_2.png");
+    width: 90%; */
+    margin-right: 10px; 
+    margin-top: 0px;
+    
+}
+
+#nav-bar_1{
+    height: 40px;
+    background-color: rgb(38, 39, 35);
+    margin: 0px;
+    
+}
+
+#nav-bar ul li {
+    display: inline-block;
+   /* background-color: rgba(39, 39, 41, 0);*/
+   font-size: 15px; 
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    border: rgb(255, 255, 255) solid 1px;
+    padding: 3px;
+    color: #FFF;
+    
+}
+
+#nav-bar ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: teal; 
+}
+#nav-bar ul li a:visited{
+    color: #fff;
+    background-color: rgb(118, 122, 122); 
+}
+#nav-bar ul li a.active{
+    color: #fff;
+    background-color: rgb(118, 122, 122); 
+}
+div p{
+    color: lavender;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+#logo{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
