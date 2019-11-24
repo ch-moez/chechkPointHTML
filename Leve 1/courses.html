@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Home</title>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <ul>
@@ -14,21 +16,29 @@
             <br>
             <h3>feedback</h3>
             <br>
-            <button>B</button> <button>I</button> <button>Underline</button>
-            <select>
+            <!--<button onclick="changeTextToBold()">B</button> -->
+            <button onclick="changeStyle('b')">B</button>
+            <button onclick="changeStyle('i')">I</button> 
+            <button onclick="changeStyle('u')">Underline</button>
+
+            <select onclick="changeFontSize()" id="selectFontSize">
                 <option>20px</option>
                 <option>30px</option>
                 <option>40px</option>
             </select>
-            <select>
+
+            <select id="selectFontFamily" onchange="chargeFontFamily()">
                 <option>Arial</option>
                 <option>Verdana</option>
                 <option>Geneva</option>
             </select>
             <br>
-            <textarea rows=20 cols=55 >
 
-            </textarea>
+            <div id="divTextArea">
+            <textarea  id="myTextArea" ></textarea>
+            </div>
+            
         </center>
     </body>
+    
 </html>

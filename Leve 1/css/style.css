@@ -6,7 +6,7 @@ body{
 }
 #div1{
    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
-    background-image: url("../res/html_1.jpg"); 
+    background-image: url("../res/go_1.jpeg"); 
     background-repeat: no-repeat;
  /* background-attachment: fixed; */
   background-position: center;
@@ -19,7 +19,7 @@ body{
 #div2{
     /*background-image: Linear-gradient(127deg, black, black 70.71%);*/
    /* height: 2000 px; */
-    background-image: url("../res/css-zero.jpg"); 
+    background-image: url("../res/go_2.png"); 
     background-repeat: no-repeat;
   /*background-attachment: fixed; */
   background-position: center;
@@ -31,7 +31,7 @@ body{
 }
 #div3{
     background-image: Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    background-image: url("../res/js_2.png"); 
+    background-image: url("../res/go_3.png"); 
     background-position: center;
     background-repeat: no-repeat;
     color: rgb(138, 35, 179);
@@ -99,4 +99,28 @@ div p{
     width: 100px;
     height: auto;
     margin-top: 10px;
+}
+.bold{
+    /*font: bold 30px;*/
+  /*  font: bold 12px/30px Georgia, serif;*/
+    font-weight: bold;
+   /* font-size: 30px;*/
+   /* color: rgb(235, 13, 13);  */
+    
+}
+.italic{
+    font-style: italic;
+    /*color: rgba(0,0,255);*/
+}
+.underlined{
+    text-decoration: underline;
+}
+
+#divTextArea{
+    height: 10px;
+    width: auto;
+}
+#myTextArea{
+    width: 300px;
+    height: 300px;
 }
