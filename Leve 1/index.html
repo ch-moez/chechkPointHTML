@@ -5,8 +5,12 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image/png" href="res/logo.jpg" />
 
-    </head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      
+        </head>
     <body>
+
+<!--_______________________Nav Bar____________________________________-->
       <div id="nav-bar_1">
        
                 <div><a href="#"><img id="logo" src="res/logo-GMC-Black.png"></a></div>
@@ -18,16 +22,106 @@
                 
                 </div>
         </div>
-        
+<!--___________________end Nav Bar____________________________________-->
+
+
+
         <div id="div1">  
-                <p>Div 1</p>
+                
         </div>
         <div id="div2">
-                <p>Div 2</p>
+                
         </div>
         <div id="div3">
-                <p><a href="#nav-bar">Div 3</a></p>       
+                     
          </div>
+
+
+         <!-- ______________Courses Button View More With Table____________________-->
+         <!--
+        <div id="coursesDiv">
+                <table>
+                        <tr>
+                                <td><div id="course1" class="divCoursCol">
+                                        <button class="btnViewMore" id="c1" onclick="displayModelPopUp()">View More</button>
+                                </div></td>
+                                <td><div id="course2" class="divCoursCol">
+                                         <button class="btnViewMore" id="c2">View More</button>
+                                </div></td>
+                                <td><div id="course3" class="divCoursCol" onclick="displayModelPopUp()">
+                                          <button class="btnViewMore">View More</button>
+                                </div></td>
+                        </tr>
+                        <tr>
+                                <td><div id="course4" class="divCoursCol">
+                                         <button class="btnViewMore" onclick="displayModelPopUp()">View More</button>
+                                </div></td>
+                                <td><div id="course5" class="divCoursCol">
+                                        <button class="btnViewMore" onclick="displayModelPopUp()">View More</button>
+                                </div></td>
+                                <td><div id="course6" class="divCoursCol">
+                                        <button class="btnViewMore" onclick="displayModelPopUp()">View More</button>
+                                </div></td>
+                         </tr>
+                </table>
+
+        </div>
+        -->
+         <!-- ___________END Courses Button View More____________________-->
+        
+
+
+
+
+ <!-- ______________Courses Button View More With DIV____________________-->
+ <div id="coursesDiv">
+                
+        <div id="course1" class="divCoursCol" onclick="displayModelPopUp()">
+          <button class="btnViewMore" id="c1" onclick="displayModelPopUp()">View More</button>
+        </div>
+         <div id="course2" class="divCoursCol" onclick="displayModelPopUp()">
+                   <button class="btnViewMore" id="c2" onclick="displayModelPopUp()">View More</button>
+             </div>
+         <div id="course3" class="divCoursCol" onclick="displayModelPopUp()">
+              <button class="btnViewMore" onclick="displayModelPopUp()">View More</button>
+                   </div>
+         <!--          
+             <div id="course4" class="divCoursCol">
+                  <button class="btnViewMore" onclick="displayModelPopUp()">View More</button>
+               </div>
+          <div id="course5" class="divCoursCol">
+           <button class="btnViewMore" onclick="displayModelPopUp()">View More</button>
+                 </div>
+         <div id="course6" class="divCoursCol">
+                 <button class="btnViewMore" onclick="displayModelPopUp()">View More</button>
+             </div>
+               --> 
+        </div>
+         <!-- ___________END Courses Button View More____________________-->
+        
+       <center><a href="courses.html"><h4>View more...</h4></a></center>  
+<hr>
+<center><H1 id="MoreAboutGoMyCode">More about GoMyCode:</H1></center>
+
+
        
+ <!------- The Modal ---------------->
+ 
+     <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>This is a GoMyCode Track. <br>
+             Each track has its own goal. <br>
+             By adopting this track, you chose your own goal.
+          </p>
+        </div>
+      
+      </div>
+<!------ END The Modal ------>
+
+
+      <script src="js/main.js"></script>
     </body>
 </html>

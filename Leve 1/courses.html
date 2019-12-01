@@ -4,13 +4,69 @@
         <title>Home</title>
         <script src="js/main.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Courses.html">Courses</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
+
+
+       <!--_______________________Nav Bar____________________________________-->
+      <div id="nav-bar_1">
+       
+            <div><a href="#"><img id="logo" src="res/logo-GMC-Black.png"></a></div>
+            <div id="nav-bar">
+                    <ul>
+                            <li><a  href="index.html">Home</a></li>
+                            <li><a class="active" href="Courses.html">Courses</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+            
+            </div>
+    </div>
+<!--___________________end Nav Bar____________________________________-->
+
+
+
+
+        <div class="cover">
+                <h1 class="heading">COURSES</h1>
+            </div>
+
+<!--______________Block 1_______________-->
+            <div align="center">
+                    <div class="course_1" onclick="displayModelPopUp()">
+                        <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+                    </div>
+                    <div class="course_2" onclick="displayModelPopUp()">
+                          <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+                    </div>
+                    <div class="course_3" onclick="displayModelPopUp()">
+                          <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+                      </div> 
+            </div>
+<!--______________Block 2_______________-->
+<div align="center">
+        <div class="course_4" onclick="displayModelPopUp()">
+            <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+        </div>
+        <div class="course_5" onclick="displayModelPopUp()">
+              <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+        </div>
+        <div class="course_6" onclick="displayModelPopUp()">
+              <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+          </div> 
+</div>
+<!--______________Block 3_______________-->
+<div align="center">
+        <div class="course_7" onclick="displayModelPopUp()">
+            <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+        </div>
+        <div class="course_8" onclick="displayModelPopUp()">
+              <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+        </div>
+        <div class="course_9" onclick="displayModelPopUp()">
+              <button class="btnCourses" onclick="displayModelPopUp()">View more</button>
+          </div> 
+</div>
+
         <center>
             <h1>courses</h1>
             <br>
@@ -32,13 +88,37 @@
                 <option>Verdana</option>
                 <option>Geneva</option>
             </select>
-            <br>
+            <br><br>
 
             <div id="divTextArea">
             <textarea  id="myTextArea" ></textarea>
             </div>
             
         </center>
+
+
+
+
+               
+ <!------- The Modal ---------------->
+ 
+     <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>This is a GoMyCode Track. <br>
+                 Each track has its own goal. <br>
+                 By adopting this track, you chose your own goal.
+              </p>
+            </div>
+          
+          </div>
+<!------ END The Modal ------>
+    
+
+
+        <script src="js/main.js"></script>
     </body>
     
 </html>
