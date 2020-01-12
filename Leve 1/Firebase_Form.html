@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Final Checkpoint</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/style_2.css">
+
+    </head>
+    <body>
+         <!--______nav bar with Bootstrap_________________-->
+            <nav class="navbar navbar-inverse myNavBar" >
+                    <div class="container-fluid">
+                      <div class="navbar-header webSiteLogo">
+                        <a class="navbar-brand " href="#"><img src="https://gomycode.tn/images/section2GMCLogo.png" style="width:50px;height:50px;"></a>
+                      </div>
+                      <ul class="nav navbar-nav" id="ulNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </nav> 
+     <!--______END nav bar with Bootstrap_________________-->
+
+
+     <form id="contactForm">
+         <input type="text" id="name" name="name">
+         <input type="email" id="email" name="email">
+         <input type="password" id="password" name="password">
+         <textarea cols="50" rows="10" id="message"></textarea>
+         <input type="submit" name="submit" id="submitButton">
+
+     </form>
+
+
+    </body>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+
+<!--_______________Firebase SDK__________________-->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.6.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.6.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<!--____________END Firebase SDK__________________-->
+
+<script src="js/firebase.js"></script>
+    <script src="js/editor.js"></script>
+</html>

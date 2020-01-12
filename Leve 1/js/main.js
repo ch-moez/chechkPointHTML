@@ -115,7 +115,7 @@ function chargeFontFamily(){
 
 // ______________script modal Popup_________________________
 //Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("my_Modal");
 
 // Get the button that opens the modal
 //var btn = document.getElementById("myBtn");
@@ -123,7 +123,7 @@ var modal = document.getElementById("myModal");
 //var btnC2 = document.getElementById("c2");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("close_btn")[0];
 
 // When the user clicks the button, open the modal 
 /*btnC1.onclick = function() {

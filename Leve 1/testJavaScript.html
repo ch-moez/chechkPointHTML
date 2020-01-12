@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body onload="convert(1,1)">
+
+
+
+        <script>
+            function convert(hours, minutes) {
+            var d = new Date();
+            console.log("date : ");
+            console.log(d);
+              var m = Math.floor(hours *60);
+                 console.log("Minutes : "+ m);
+                 var s = Math.floor(m*60);
+                 console.log("Seconds : "+ s);
+                 var minutesToSeconds = Math.floor(minutes*60);
+                 var SecondsResult = s + minutesToSeconds;
+                 console.log('SecondsResult : '+SecondsResult);
+             }
+            </script>
+
+    </body>
+</html>

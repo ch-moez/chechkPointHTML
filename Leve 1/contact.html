@@ -1,55 +1,88 @@
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home</title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   
+            <title>Final Checkpoint</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/style_2.css">
+
     </head>
     <body>
-               
-       <!--_______________________Nav Bar____________________________________-->
-      <div id="nav-bar_1">
-       
-            <div><a href="#"><img id="logo" src="res/logo-GMC-Black.png"></a></div>
-            <div id="nav-bar">
-                    <ul>
-                            <li><a  href="index.html">Home</a></li>
-                            <li><a class="active" href="Courses.html">Courses</a></li>
-                            <li><a href="Contact.html">Contact</a></li>
-            
-            </div>
-    </div>
-<!--___________________end Nav Bar____________________________________-->
+            <nav class="navbar navbar-inverse myNavBar" >
+                    <div class="container-fluid">
+                      <div class="navbar-header webSiteLogo">
+                        <a class="navbar-brand " href="#"><img src="https://gomycode.tn/images/section2GMCLogo.png" style="width:50px;height:50px;"></a>
+                      </div>
+                      <ul class="nav navbar-nav" id="ulNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </nav> 
+                  
+                  <center>
+                  <div class="cover">
+                        <h1 class="heading">CONTACT</h1>
+                    </div>
+                  </center>
+
+                  <div align="center">
+                    <form id="contactForm">
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                                <label for="exampleFormControlSelect1">Track</label>
+                                <select class="form-control" id="track">
+                                  <option>Web</option>
+                                  <option>Game</option>
+                                  <option>AI</option>
+                                </select>
+                              </div>
+                        <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                              </div>
+                              <div class="form-group">
+                                    <label for="exampleFormControlInput1">Phone number</label>
+                                    <input type="number" class="form-control" id="phone" placeholder="Your Phone Number">
+                                  </div>
+
+                                 
+                        <div class="form-group row">
+                                <div class="col-sm-10">
+                                  <button type="submit" class="btn btn-primary" >Submit</button>
+                                </div>
+                              </div>
+                            </form>
+
+                    </div>
 
 
-        <center>
-            <h1>Contact</h1>
-            <form action="" method="POST">
-                    <label>name</label>
-                    <br>
-                    <input type="text" placeholder="Enter you name">
-                    <br>
-                    <label>track</label>
-                    <br>
-                    <select>
-                        <option>Web</option>
-                        <option>AI</option>
-                        <option>Game</option>
-                    </select>
-                    <br>
-                    Email Address 
-                    <br>
-                    <input type="text">
-                    <br>
-                    Phone Number
-                    <br>
-                    <input type="number">
-                    <br>
-                    <button onclick="//alert('clicked')">submit</button>
-                    <input type="submit" value="submit">
-            </form>
-            
-        </center>
-</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+
+
+<script src="js/FirebaseJS.js"></script>
+    <!-- <script src="js/editor.js"></script> -->
+
+    </body>
+
 </html>
